@@ -1,3 +1,16 @@
+model: fall-detection-ca3o8
+api_key: JUy2iq3uJkeSj9zB2Khx
+
+sleep_time: 0.1
+main_conf: 0.8
+nms_overlap: 0.5
+size_discard_coeff: 0.7
+lookback_frames: 2  
+lookback_iou: 0.7 
+
+telegram_api_key: "7342955676:AAEZL65MLerdfqNgui7LaZZzXKSuhOycG6c"
+telegram_chat_id: "7327357261"
+
         #{
         #    predictions:
         #    [ {
@@ -14,3 +27,5 @@
         #frame - frame after preprocs, with predictions
         #raw_frame - original frame from your OAK
         #depth - depth map for raw_frame, center-rectified to the center camera
+
+        
