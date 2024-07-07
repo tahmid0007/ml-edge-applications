@@ -1,0 +1,16 @@
+        #{
+        #    predictions:
+        #    [ {
+        #        x: (middle),
+        #        y:(middle),
+        #        width:
+        #        height:
+        #        depth: ###->
+        #        confidence:
+        #        class:
+        #        mask: {
+        #    ]
+        #}
+        #frame - frame after preprocs, with predictions
+        #raw_frame - original frame from your OAK
+        #depth - depth map for raw_frame, center-rectified to the center camera
